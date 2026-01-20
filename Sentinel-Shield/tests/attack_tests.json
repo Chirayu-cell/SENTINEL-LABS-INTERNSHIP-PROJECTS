@@ -1,0 +1,30 @@
+[
+  {
+    "name": "SQLi Boolean Probe",
+    "ip": "192.168.191.1",
+    "request": "/search?q=1 OR 1=1--",
+    "expected_detection": "SQL_INJECTION",
+    "expected_decision": "CHALLENGE"
+  },
+  {
+    "name": "XSS Encoded",
+    "ip": "192.168.192.2",
+    "request": "/search?q=%3Cscript%3Ealert(1)%3C/script%3E",
+    "expected_detection": "XSS",
+    "expected_decision": "MONITOR"
+  },
+  {
+    "name": "Command Injection",
+    "ip": "192.168.193.3",
+    "request": "/run?cmd=whoami;id",
+    "expected_detection": "COMMAND_INJECTION",
+    "expected_decision": "BLOCK"
+  },
+  {
+    "name": "LFI Attempt",
+    "ip": "192.168.194.4",
+    "request": "/page=../../../../etc/passwd",
+    "expected_detection": "LFI",
+    "expected_decision": "MONITOR"
+  }
+]

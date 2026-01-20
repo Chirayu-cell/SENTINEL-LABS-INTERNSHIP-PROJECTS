@@ -1,0 +1,10 @@
+# === OSINT Threat Intelligence Feeds ===
+# IP-based feeds
+https://feodotracker.abuse.ch/downloads/ipblocklist.txt
+https://rules.emergingthreats.net/blockrules/compromised-ips.txt
+
+# URL / Domain feeds
+https://urlhaus.abuse.ch/downloads/text/
+
+# Add more feeds below
+# https://example.com/new-feed.txt

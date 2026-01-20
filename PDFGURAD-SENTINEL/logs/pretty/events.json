@@ -1,0 +1,63 @@
+{
+    "timestamp": "2026-01-17T14:14:03.033485+00:00",
+    "file_name": "test.pdf",
+    "file_size": 18963,
+    "hashes": {
+        "md5": "00b1bc1a954c703e9cc1acbb55d789ec",
+        "sha1": "b26a6c747f9a3d8b2cf46ac01990dec52691c824",
+        "sha256": "4b0f25c84b55f20f0b962ee7481dc2479bcef00854ff4a811da820198f211ff4"
+    },
+    "metadata": {
+        "pdf_version": "%PDF-1.7",
+        "creator": "Microsoft Word",
+        "producer": null,
+        "created": "D:20260117061223-08'00'",
+        "modified": "D:20260117061223-08'00'",
+        "pages": 1
+    },
+    "structure": {
+        "object_count": 15,
+        "indicators": {
+            "/JavaScript": false,
+            "/JS": false,
+            "/OpenAction": false,
+            "/AA": false,
+            "/Launch": false,
+            "/EmbeddedFile": false,
+            "/ObjStm": true
+        }
+    },
+    "streams": {
+        "streams": [
+            {
+                "length": 2835,
+                "entropy": 4.984
+            }
+        ],
+        "javascript_snippets": []
+    },
+    "actions": [],
+    "javascript_intent": {
+        "javascript_analysis": [],
+        "suspicious_apis_detected": []
+    },
+    "embedded_files": [],
+    "iocs": {
+        "urls": [],
+        "ips": [],
+        "domains": []
+    },
+    "flags": [
+        "virustotal_unknown_hash"
+    ],
+    "correlations": [],
+    "reputation": [],
+    "virustotal": {
+        "error": "VT query failed (404)"
+    },
+    "risk": {
+        "risk_score": 0,
+        "risk_level": "low",
+        "contributing_factors": []
+    }
+}

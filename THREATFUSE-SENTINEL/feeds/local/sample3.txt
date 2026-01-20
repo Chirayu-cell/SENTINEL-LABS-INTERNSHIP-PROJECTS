@@ -1,0 +1,10 @@
+185.225.69.69
+f0d5c7b9c3f1a12a9b5b1c2d8e0f5a12
+login-secure-update[.]com
+account-verification-center[.]net
+secure-mail-alert[.]org
+44d88612fea8a8f36de82e1278abb02f
+203.0.113.45
+198.51.100.77
+cloudfront.net
+githubusercontent.com

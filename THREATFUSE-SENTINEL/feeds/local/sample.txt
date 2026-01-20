@@ -1,0 +1,7 @@
+8.8.8.8
+999.999.999.999
+google.com
+-test.com
+d41d8cd98f00b204e9800998ecf8427e
+THIS_IS_NOT_REAL
+ww3.thisisevildomain.com

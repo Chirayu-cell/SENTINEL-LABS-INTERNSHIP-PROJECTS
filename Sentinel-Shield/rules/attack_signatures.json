@@ -1,0 +1,66 @@
+{
+  "SQL_INJECTION": {
+    "severity": "HIGH",
+    "patterns": [
+      "(?i)(\\bor\\b\\s+\\d+=\\d+)",
+      "(?i)(union\\s+select)",
+      "(?i)(sleep\\s*\\()",
+      "(?i)(benchmark\\s*\\()",
+      "(?i)(information_schema)",
+      "(?i)(--|#|/\\*)"
+    ]
+  },
+
+  "XSS": {
+    "severity": "HIGH",
+    "patterns": [
+      "(?i)<\\s*script",
+      "(?i)onerror\\s*=",
+      "(?i)onload\\s*=",
+      "(?i)javascript:",
+      "(?i)alert\\s*\\(",
+      "(?i)document\\.cookie"
+    ]
+  },
+
+  "LFI": {
+    "severity": "MEDIUM",
+    "patterns": [
+      "(\\.\\./)+",
+      "(?i)/etc/passwd",
+      "(?i)/proc/self/environ",
+      "(?i)windows/system32"
+    ]
+  },
+
+  "COMMAND_INJECTION": {
+    "severity": "CRITICAL",
+    "patterns": [
+      "(;|\\|\\||&&)",
+      "(?i)\\b(cat|ls|whoami|id|uname)\\b",
+      "(?i)\\bcurl\\b|\\bwget\\b"
+    ]
+  },
+
+  "RCE": {
+    "severity": "CRITICAL",
+    "patterns": [
+      "(?i)\\bpython\\s+-c\\b",
+      "(?i)\\bperl\\s+-e\\b",
+      "(?i)\\bphp\\s+-r\\b",
+      "(?i)base64_decode\\s*\\(",
+      "(?i)eval\\s*\\("
+    ]
+  },
+
+  "SCANNER_ACTIVITY": {
+    "severity": "LOW",
+    "patterns": [
+      "(?i)nikto",
+      "(?i)nmap",
+      "(?i)sqlmap",
+      "(?i)dirbuster",
+      "(?i)gobuster"
+    ]
+  }
+}
