@@ -162,4 +162,5 @@ Reports clearly explain *why* an entry is suspicious, not just *that* it is.
 ## 🚀 How to Run
 
 ```bash
-python main.py
+python main.py --baseline
+python main.py --monitor
